@@ -68,7 +68,7 @@ author:
       url: "https://scholar.google.com/citations?user=8NFyCUkAAAAJ&hl=en"
     - label: "CV"
       icon: "far fa-fw fa-file-pdf"
-      url: "/assets/Goridkov_CV.pdf"
+      url: "/assets/pdfs/Goridkov_CV.pdf"
       
 footer:
   links:
