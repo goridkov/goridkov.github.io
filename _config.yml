@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Nicole Goridkov"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "ph.d. mech. engineering &#183; uc berkeley august 2026 <br> b.s. mech. engineering &#183; mit 2021 <br> <em>goridkov[at]berkeley.edu</em> <br> Design researcher interested in sustainability and AI."
+  bio    : "ph.d. mech. engineering &#183; uc berkeley aug 2026 <br> b.s. mech. engineering &#183; mit 2021 <br> <em>goridkov[at]berkeley.edu</em> <br> Design researcher interested in sustainability and AI."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
