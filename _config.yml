@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: nicole goridkov
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Nicole Goridkov's personal website
@@ -24,7 +24,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+# remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -58,16 +58,16 @@ plugins:
 author:
   name   : "Nicole Goridkov"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "ph.d. mechanical engineering &#183; uc berkeley august 2026 <br> b.s. mechanical engineering &#183; mit 2021 <br> <em>goridkov[at]berkeley.edu</em> <br> Design researcher interested in sustainability and AI."
+  bio    : "ph.d. meche &#183; uc berkeley august 2026 <br> b.s. meche &#183; mit 2021 <br> <em>goridkov[at]berkeley.edu</em> <br> Design researcher interested in sustainability and AI."
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/nicole-goridkov/"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=8NFyCUkAAAAJ&hl=en"
     - label: "CV"
-      icon: "fab fa-fw fa-file-pdf"
+      icon: "far fa-fw fa-file-pdf"
       url: "/assets/Goridkov_CV.pdf"
       
 footer:
@@ -81,11 +81,12 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
@@ -93,6 +94,23 @@ defaults:
     values:
       layout: single
       author_profile: true
+# _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: false
+  # _design
+  - scope:
+      path: ""
+      type: design
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      
 
 category_archive:
   type: liquid
@@ -100,3 +118,12 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+  collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  design:
+    output: true
+    permalink: /:collection/:title/
