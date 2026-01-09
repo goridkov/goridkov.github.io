@@ -16,6 +16,22 @@ Below you can find my published research projects.
 <div class="entries-grid">
   {% assign publications = site.projects | reverse %}
   {% for post in publications %}
-    {% include archive-single.html type="grid" %}
+    <div class="grid__item">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        {% if post.header.teaser %}
+          <div class="archive__item-teaser">
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.header.teaser | relative_url }}" alt="">
+            </a>
+          </div>
+        {% endif %}
+        <h2 class="archive__item-title" itemprop="headline">
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        <div class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify }}
+        </div>
+      </article>
+    </div>
   {% endfor %}
 </div>
