@@ -11,7 +11,7 @@ Hi! I'm a final-year PhD candidate in the Mechanical Engineering department at U
 
 Previously, I received a B.S. in Mechanical Engineering from MIT, where I worked on ocean acidification research with Dr. Carolina Bastidas.
 
-<h2 class="archive__subtitle">Selected Projects</h2>
+Below you can find my published research projects.
 
 <div class="entries-grid">
   {% assign publications = site.projects | reverse %}
