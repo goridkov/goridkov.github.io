@@ -12,4 +12,4 @@ header:
 ---
 **Nicole Goridkov** and Kosa Goucher-Lambert. *Proceedings of the ICED Conference.* (2025).
 
-<embed src="/assets/pdf/goridkov-dfsb-iced.pdf" type="application/pdf" height="250"/>
+<embed src="/assets/pdfs/goridkov-dfsb-iced.pdf" type="application/pdf" height="250"/>
