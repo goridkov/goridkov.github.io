@@ -103,6 +103,14 @@ defaults:
       layout: single
       author_profile: true
       share: false
+#_projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+
 
 category_archive:
   type: liquid
@@ -115,3 +123,9 @@ collections:
   research:
     output: true
     permalink: /research/:path/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
