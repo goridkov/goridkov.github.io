@@ -95,10 +95,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-   # _projects
+   # _research
   - scope:
       path: ""
-      type: projects
+      type: research
     values:
       layout: single
       author_profile: true
@@ -112,6 +112,6 @@ tag_archive:
   path: /tags/
 
 collections:
-  projects:
+  research:
     output: true
-    permalink: /projects/:path/
+    permalink: /researc/:path/
