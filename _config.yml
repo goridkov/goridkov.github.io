@@ -114,4 +114,4 @@ tag_archive:
 collections:
   research:
     output: true
-    permalink: /researc/:path/
+    permalink: /research/:path/
