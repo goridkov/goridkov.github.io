@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 excerpt: "<b>Nicole Goridkov</b> and Kosa Goucher-Lambert. <i>Proceedings of the ICED Conference.</i> (2025)."
 categories:
-  - projects
+  - research
 tags:
   - paper
 header:
