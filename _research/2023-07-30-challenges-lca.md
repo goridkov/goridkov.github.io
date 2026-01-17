@@ -4,7 +4,7 @@ layout: single
 author_profile: True 
 excerpt: "<b>Nicole Goridkov</b>, Kelly Ye, Ye Wang, and Kosa Goucher-Lambert. <i>Proceedings of the ICED conference.</i> (2023)."
 categories:
-  - projects
+  - research
 tags:
   - paper
 header:
