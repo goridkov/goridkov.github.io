@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-here's some cool projects I've worked on!
+some projects I've worked on
 
 <div class="custom-project-gallery">
   {% assign my_projects = site.projects | reverse %}
