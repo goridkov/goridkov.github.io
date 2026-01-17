@@ -1,9 +1,5 @@
 ---
-title: "Mad Hatter"
-excerpt: "An interactive ball-launching toy!"
-header:
-  teaser: /assets/images/hatter.jpg
+title: "Mad Hatter: An interactive ball-launching toy"
+image: "/assets/images/hatter.jpg"
 ---
-
-This is the full page for the project. You can add more details, 
-code snippets, or extra photos here!
+For MIT’s 2.00b Toy Product Design class, we brought to life a playful acrylic top-hat toy that launches and catches balls in one seamless motion using SolidWorks, laser cutting, Arduino, and hand-sewn components.
