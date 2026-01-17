@@ -123,9 +123,8 @@ collections:
   research:
     output: true
     permalink: /research/:path/
-
-collections:
   projects:
     output: true
     permalink: /projects/:path/
+  
 
