@@ -14,7 +14,7 @@ Previously, I received a B.S. in Mechanical Engineering from MIT, where I worked
 Below you can find my published research projects.
 
 <div class="entries-grid">
-  {% assign publications = site.projects | reverse %}
+  {% assign publications = site.research | reverse %}
   {% for post in publications %}
     <div class="grid__item">
       <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
