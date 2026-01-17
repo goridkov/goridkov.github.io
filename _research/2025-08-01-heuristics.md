@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 excerpt: "**Nicole Goridkov**, Ye Wang, and Kosa Goucher-Lambert. *Design Science.* (2025)."
 categories:
-  - projects
+  - research
 tags:
   - paper
 header:
