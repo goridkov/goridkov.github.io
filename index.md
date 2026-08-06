@@ -7,13 +7,13 @@ author_profile: true
 classes: wide
 ---
 
-Hi! I'm a fifth-year PhD candidate in the Mechanical Engineering department at UC Berkeley. I'm advised by Prof. Kosa Goucher-Lambert in the [Co-Design Lab](https://codesign.berkeley.edu/), where I do mixed-methods research on sustainability and human-centered design processes, helping enable designers to apply sustainability principles in the early stages of design. I am affiliated with the [Berkeley Institute of Design](https://bid.berkeley.edu/) and am generously supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). More broadly, I am interested in the intersection of design methods/ HCI, environmental sustainability, and AI tools.
+Hi! I'm a fifth-year PhD candidate in the Mechanical Engineering department at UC Berkeley. I'm advised by Prof. Kosa Goucher-Lambert in the [Co-Design Lab](https://codesign.berkeley.edu/), where I do mixed-methods design research on sustainability and human-centered design processes, helping enable designers to apply sustainability principles in the early stages of design. I am affiliated with the [Berkeley Institute of Design](https://bid.berkeley.edu/) and am generously supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). More broadly, I am interested in the intersection of design methods/ HCI, environmental sustainability, and emerging technologies.
 
 Previously, I received a B.S. in Mechanical Engineering from MIT, where I worked on ocean acidification research with Dr. Carolina Bastidas at the [MIT Sea Grant](https://seagrant.mit.edu/).
 
-**I'm on the job market! I'm seeking full-time research roles in UX research, human-centered AI, project management, or sustainability-focused product teams starting in Fall 2026!**
+**I'm on the job market! I'm seeking full-time research roles in design research, human-centered AI, project management, or sustainability-focused product teams starting in Fall 2026/ January 2027!**
 
-Below you can find my published research projects.
+Below you can find my published research projects. (or some non-research projects on the tab above!)
 
 <div class="entries-grid">
   {% assign publications = site.research | reverse %}
